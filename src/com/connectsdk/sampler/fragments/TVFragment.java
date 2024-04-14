@@ -134,7 +134,7 @@ public class TVFragment extends BaseFragment {
                 
                 @Override
                 public void onClick(View v) {
-                    getKeyControl().sendKeyCode(KeyCode.NUM_0, null);;
+                    getKeyControl().sendKeyCode(KeyCode.NUM_0, null);
                 }
             });
             
@@ -143,6 +143,7 @@ public class TVFragment extends BaseFragment {
                 @Override
                 public void onClick(View v) {
                     // TODO 함수를 채우시오
+                    getKeyControl().sendKeyCode(KeyCode.NUM_1, null);
                 }
             });
 
@@ -151,6 +152,7 @@ public class TVFragment extends BaseFragment {
                 @Override
                 public void onClick(View v) {
                     // TODO 함수를 채우시오
+                    getKeyControl().sendKeyCode(KeyCode.NUM_2, null);
                 }
             });
 
@@ -159,6 +161,7 @@ public class TVFragment extends BaseFragment {
                 @Override
                 public void onClick(View v) {
                     // TODO 함수를 채우시오
+                    getKeyControl().sendKeyCode(KeyCode.NUM_3, null);
                 }
             });
 
@@ -167,6 +170,7 @@ public class TVFragment extends BaseFragment {
                 @Override
                 public void onClick(View v) {
                     // TODO 함수를 채우시오
+                    getKeyControl().sendKeyCode(KeyCode.NUM_4, null);
                 }
             });
 
@@ -175,6 +179,7 @@ public class TVFragment extends BaseFragment {
                 @Override
                 public void onClick(View v) {
                     // TODO 함수를 채우시오
+                    getKeyControl().sendKeyCode(KeyCode.NUM_5, null);
                 }
             });
 
@@ -183,6 +188,7 @@ public class TVFragment extends BaseFragment {
                 @Override
                 public void onClick(View v) {
                     // TODO 함수를 채우시오
+                    getKeyControl().sendKeyCode(KeyCode.NUM_6, null);
                 }
             });
 
@@ -191,6 +197,7 @@ public class TVFragment extends BaseFragment {
                 @Override
                 public void onClick(View v) {
                     // TODO 함수를 채우시오
+                    getKeyControl().sendKeyCode(KeyCode.NUM_7, null);
                 }
             });
 
@@ -199,6 +206,7 @@ public class TVFragment extends BaseFragment {
                 @Override
                 public void onClick(View v) {
                     // TODO 함수를 채우시오
+                    getKeyControl().sendKeyCode(KeyCode.NUM_8, null);
                 }
             });
 
@@ -207,6 +215,7 @@ public class TVFragment extends BaseFragment {
                 @Override
                 public void onClick(View v) {
                     // TODO 함수를 채우시오
+                    getKeyControl().sendKeyCode(KeyCode.NUM_9, null);
                 }
             });
 
@@ -215,6 +224,7 @@ public class TVFragment extends BaseFragment {
                 @Override
                 public void onClick(View v) {
                     // TODO 함수를 채우시오
+                    getKeyControl().sendKeyCode(KeyCode.DASH, null);
                 }
             });
 
@@ -223,6 +233,7 @@ public class TVFragment extends BaseFragment {
                 @Override
                 public void onClick(View v) {
                     // TODO 함수를 채우시오
+                    getKeyControl().sendKeyCode(KeyCode.ENTER, null);
                 }
             });
         }
@@ -247,6 +258,7 @@ public class TVFragment extends BaseFragment {
                 @Override
                 public void onClick(View view) {
                     // TODO 함수를 채우시오
+                    getTVControl().channelDown(null);
                 }
             });
         }
@@ -261,6 +273,7 @@ public class TVFragment extends BaseFragment {
                 public void onClick(View v) {
                 	testResponse =  new TestResponseObject(true, TestResponseObject.SuccessCode, TestResponseObject.Power_OFF);
                     // TODO 함수를 채우시오
+                    getPowerControl().powerOff(null);
                 }
             });
         }

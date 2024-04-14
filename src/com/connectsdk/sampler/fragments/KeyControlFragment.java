@@ -47,6 +47,7 @@ public class KeyControlFragment extends BaseFragment {
     public Button upButton;
     public Button leftButton;
     public Button clickButton;
+    public Button rightButton;
     public Button backButton;
     public Button downButton;
     public Button homeButton;
@@ -92,13 +93,14 @@ public class KeyControlFragment extends BaseFragment {
         leftButton = (Button) rootView.findViewById(R.id.leftButton);
         clickButton = (Button) rootView.findViewById(R.id.clickButton);
         backButton = (Button) rootView.findViewById(R.id.backButton);
+        rightButton = (Button) rootView.findViewById(R.id.rightButton);
         downButton = (Button) rootView.findViewById(R.id.downButton);
         homeButton = (Button) rootView.findViewById(R.id.homeButton);
         openKeyboardButton = (Button) rootView.findViewById(R.id.openKeyboardButton);
         openKeyboardButton.setSelected(false);
         trackpadView = rootView.findViewById(R.id.trackpadView);
 
-        buttons = new Button[7];
+        buttons = new Button[8];
         buttons[0] = upButton;
         buttons[1] = leftButton;
         buttons[2] = clickButton;
@@ -106,6 +108,7 @@ public class KeyControlFragment extends BaseFragment {
         buttons[4] = downButton;
         buttons[5] = homeButton;
         buttons[6] = openKeyboardButton;
+        buttons[7] = rightButton;
 
         editText = (EditText) rootView.findViewById(R.id.editField);
 
@@ -271,6 +274,21 @@ public class KeyControlFragment extends BaseFragment {
         }
         // TODO 함수를 채우시오
 
+        if (getTv().hasCapability(KeyControl.Right)) {
+            rightButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (getKeyControl() != null) {
+                        getKeyControl().right(null);
+                        testResponse =  new TestResponseObject(true, TestResponseObject.SuccessCode, TestResponseObject.RightClicked);
+                    }
+                }
+            });
+        }
+        else {
+            disableButton(rightButton);
+        }
+
 
         if (getTv().hasCapability(KeyControl.Back)) {
             backButton.setOnClickListener(new View.OnClickListener() {
@@ -303,6 +321,15 @@ public class KeyControlFragment extends BaseFragment {
 
         if (getTv().hasCapability(KeyControl.Home)) {
             // TODO 함수를 채우시오
+            homeButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (getKeyControl() != null) {
+                        getKeyControl().home(null);
+                        testResponse =  new TestResponseObject(true, TestResponseObject.SuccessCode, TestResponseObject.HomeClicked);
+                    }
+                }
+            });
         }
         else {
             disableButton(homeButton);

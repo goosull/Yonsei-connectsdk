@@ -168,7 +168,7 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
         mDiscoveryManager.setPairingLevel(PairingLevel.ON);
 
         // To show all services in a device, a device item in DevicePickerList
-        // mDiscoveryManager.setServiceIntegration(true);
+        //mDiscoveryManager.setServiceIntegration(true);
 
         // To search devices with specific service types
         /*

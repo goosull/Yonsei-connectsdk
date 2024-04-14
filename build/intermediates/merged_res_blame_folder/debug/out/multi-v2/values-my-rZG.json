@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/daheekim/Desktop/sample/Connect-SDK-Android-API-Sampler/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my-rZG/values-my-rZG.xml",
+            "outputFile": "C:\\Users\\user\\AndroidStudioProjects\\Yonsei-connectsdk\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-my-rZG\\values-my-rZG.xml",
             "map": [
                 {
-                    "source": "/Users/daheekim/.gradle/caches/transforms-3/6e019ba4c4498e91c99a0a7a70f05ddf/transformed/jetified-Connect-SDK-Android-2.0.0/res/values-my-rZG/values-my-rZG.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-3\\d93f41a253d763e311d6349cfd672265\\transformed\\jetified-Connect-SDK-Android-2.0.0\\res\\values-my-rZG\\values-my-rZG.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",
