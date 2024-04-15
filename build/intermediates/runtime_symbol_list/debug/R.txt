@@ -1285,6 +1285,7 @@ int id btn_5 0x7f090055
 int id btn_6 0x7f090056
 int id btn_7 0x7f090057
 int id btn_8 0x7f090058
+int id btn_9 0x7f09018e
 int id button 0x7f090059
 int id buttonPanel 0x7f09005a
 int id button_0 0x7f09005b
@@ -1363,6 +1364,7 @@ int id image 0x7f0900a3
 int id info 0x7f0900a4
 int id inputListView 0x7f0900a5
 int id inputPickerButton 0x7f0900a6
+int id inputnumber 0x7f09018f
 int id italic 0x7f0900a7
 int id item1 0x7f0900a8
 int id item2 0x7f0900a9
@@ -1476,11 +1478,6 @@ int id pauseButton 0x7f090114
 int id photoButton 0x7f090115
 int id pinWebAppButton 0x7f090116
 int id playButton 0x7f090117
-int id playerOne 0x7f090118
-int id playerOneScore 0x7f090119
-int id playerStatus 0x7f09011a
-int id playerTwo 0x7f09011b
-int id playerTwoScore 0x7f09011c
 int id playlistButton 0x7f09011d
 int id positionText 0x7f09011e
 int id powerOffButton 0x7f09011f
@@ -1490,7 +1487,7 @@ int id progress_circular 0x7f090122
 int id progress_horizontal 0x7f090123
 int id radio 0x7f090124
 int id recycler_view 0x7f090125
-int id resetGame 0x7f09018d
+int id resetButton 0x7f090190
 int id responseMessageTextView 0x7f090126
 int id rewindButton 0x7f090127
 int id right 0x7f090128
@@ -1591,6 +1588,7 @@ int id volumeSlider 0x7f090186
 int id volumeUpButton 0x7f090187
 int id volume_item_container 0x7f090188
 int id volume_seek_bar 0x7f090189
+int id volumebar 0x7f090191
 int id wide 0x7f09018a
 int id withText 0x7f09018b
 int id wrap_content 0x7f09018c
@@ -1657,7 +1655,7 @@ int layout expand_button 0x7f0c0026
 int layout fragment_apps 0x7f0c0027
 int layout fragment_fiveway 0x7f0c0028
 int layout fragment_media_player 0x7f0c0029
-int layout fragment_minigame 0x7f0c002a
+int layout fragment_mycontroller 0x7f0c0062
 int layout fragment_navigation_drawer 0x7f0c002b
 int layout fragment_system 0x7f0c002c
 int layout fragment_tv 0x7f0c002d

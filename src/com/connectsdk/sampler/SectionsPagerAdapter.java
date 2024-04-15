@@ -22,7 +22,7 @@ import com.connectsdk.sampler.fragments.AppsFragment;
 import com.connectsdk.sampler.fragments.BaseFragment;
 import com.connectsdk.sampler.fragments.KeyControlFragment;
 import com.connectsdk.sampler.fragments.MediaPlayerFragment;
-import com.connectsdk.sampler.fragments.MiniGameFragment;
+import com.connectsdk.sampler.fragments.MyControllerFragment;
 import com.connectsdk.sampler.fragments.SystemFragment;
 import com.connectsdk.sampler.fragments.TVFragment;
 import com.connectsdk.sampler.fragments.WebAppFragment;
@@ -81,7 +81,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
                 break;
 
             case 6:
-                newFragment = new MiniGameFragment(mContext);
+                newFragment = new MyControllerFragment(mContext);
                 break;
 
             case 0:
